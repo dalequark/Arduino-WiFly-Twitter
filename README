@@ -1,3 +1,6 @@
 This program works with Arduino using the WiFly shield sold at SparkFun (https://www.sparkfun.com/products/9954). It's based on the Ethernet Shield Library that comes with Arduino 1.0. At this time, it only works with WPA keys, but if the network is open, the parameter "passphrase" should be omitted. 
 
+By the way, make sure you've downloaded the WiFly library first! If you don't have it, you can download the library and this example here:
+https://github.com/dalequark/WiFly-Shield
+
 Be sure to set ssid[] and passphrase[] to your network name and password, and twitterUsername to whichever Twitter account you'd like feeds from. 
